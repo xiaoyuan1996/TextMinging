@@ -1,0 +1,3 @@
+本文件夹先对goodwords生成词典，再word by word回译，最后使用之前的分数和最后的分数加权相加得到最后的总分。
+
+finetune.py             得到最后的结果

@@ -1,0 +1,21 @@
+extract文件夹:
+    extract-from-Italy.py       从意大利html中得到其中的text
+    post_process.py             发现有噪声，在基础上处理了一下
+    post_process_limit_9.py     把意大利文本长度限制为9
+
+    transZhToTxt.py             抽取中文文本
+    post_process_limit_11.py    把中文文本长度限制为11
+
+remove_same_data文件夹：
+    remove_same_words.py        移除重复数据
+    generate_only_data.py       生成数据唯一的txt
+
+make_vocab文件夹：
+    mk_it_vocab.py              制作it词库
+    makeDict.py                 制作词典
+
+generate_last_json文件夹：
+    filter_zh.py                将中文转为json格式并保存
+    filter.py                   将意大利文根据词典翻译为中文，保存json格式
+
+注：最终生成的json存在/data/last_data/下

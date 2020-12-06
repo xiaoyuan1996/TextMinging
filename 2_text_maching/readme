@@ -1,0 +1,7 @@
+baseline文件夹：
+    optim_new.py                直接运行，可得到初步结果
+    file文件夹
+        bleu_submission.csv     为程序的初步结果
+
+optim文件夹：
+    该文件夹为优化过的bleu计算方式
